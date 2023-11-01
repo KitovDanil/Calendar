@@ -1,7 +1,7 @@
 /*************************
 * Author: Kitov D.A. *
 * Date: 01.11.2023 *
-* Name: Letters and two-letter combination frequency *
+* Name: Calendar *
 *************************/
 #include <iostream>
 #include <iomanip>
@@ -57,10 +57,10 @@ int main()
   // Input year
   int year;
   setlocale(LC_ALL, "RUS");
-  cout << "Ââåäèòå ãîä: ";
+  cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã£Ã®Ã¤: ";
   cin >> year;
   int startingDayOfWeek = 1;
-  cout << endl << "Êàëåíäàðü äëÿ " << year << " ãîäà:" << endl << endl;
+  cout << endl << "ÃŠÃ Ã«Ã¥Ã­Ã¤Ã Ã°Ã¼ Ã¤Ã«Ã¿ " << year << " Ã£Ã®Ã¤Ã :" << endl << endl;
 
   // Calculation of the day of the week on which the year begins
   for (int curYear = 2; curYear <= year; ++curYear) {
